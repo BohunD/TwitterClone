@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TwitterClone" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorAccent"> @color/colorAccent</item>
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorBackgroundFloating">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.TwitterClone" parent="Base.Theme.TwitterClone" />
+
+    <style name="Heading" >
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>
