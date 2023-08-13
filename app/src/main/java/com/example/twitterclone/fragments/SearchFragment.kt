@@ -48,7 +48,7 @@ class SearchFragment : TwitterFragment() {
         binding.rvTweetList.apply {
             layoutManager = LinearLayoutManager(context)
             adapter = tweetsAdapter
-            addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
+            //addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
         }
         binding.swipeRefresh.setOnRefreshListener {
             binding.swipeRefresh.isRefreshing = false
