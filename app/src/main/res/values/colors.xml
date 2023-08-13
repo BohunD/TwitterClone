@@ -3,6 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="colorAccent">#209ee6</color>
+    <color name="colorButton">#E436ACEF</color>
     <color name="blue">#0000ff</color>
     <color name="lightGrey">#dddddd</color>
     <color name="grey">#bbbbbb</color>

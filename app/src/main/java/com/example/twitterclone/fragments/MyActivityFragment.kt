@@ -9,6 +9,9 @@ import com.example.twitterclone.R
 
 
 class MyActivityFragment : TwitterFragment() {
+    override fun updateList() {
+
+    }
 
 
     override fun onCreate(savedInstanceState: Bundle?) {

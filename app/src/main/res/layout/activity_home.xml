@@ -26,8 +26,8 @@
 
             <ImageView
                 android:id="@+id/logo"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/default_user" />
         </androidx.cardview.widget.CardView>
@@ -39,11 +39,13 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="50dp"
+            android:textSize="22sp"
             android:paddingStart="@dimen/grid_3x"
             android:text="Home" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/search_bar"
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center_vertical"
@@ -85,7 +87,7 @@
         android:src="@drawable/feather"
         android:layout_margin="@dimen/grid_3x"
         app:layout_constraintBottom_toTopOf="@+id/tabs"
-        android:backgroundTint="#E436ACEF"
+        android:backgroundTint="@color/colorButton"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <com.google.android.material.tabs.TabLayout
@@ -93,22 +95,22 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="@dimen/grid_2x"
         app:tabIndicator="@null">
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:icon="@drawable/selector_home"/>
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/selector_search"/>
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:icon="@drawable/selector_my_activity"/>
 
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:icon="@drawable/selector_search"/>
+
     </com.google.android.material.tabs.TabLayout>
     
     <LinearLayout
